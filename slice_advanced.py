@@ -1,5 +1,5 @@
 def slice_advanced():
-    # Código a implementar utilizando input.
-
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_slice_advanced_test.py` o `python tp3_slice_advanced_test.py`
+    texto = input("Ingresa texto:")
+    print(f"texto original: {texto}")
+    modificado = texto[4: :2]
+    print(f"texto modificado: {modificado}")
